@@ -1,0 +1,1 @@
+BrightPath Academy empowers learners with cutting-edge online courses and advanced educational tools. Our mission is to make quality education accessible to everyone through AI-driven and interactive learning experiences. Join us on a journey to unlock your full potential and achieve academic success.
