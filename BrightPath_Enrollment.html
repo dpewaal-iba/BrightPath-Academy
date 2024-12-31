@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightPath Academy - Enrollment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enrollment.html">Enroll</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="enrollment-form">
+            <h1>Enroll in a Course</h1>
+            <p>Join BrightPath Academy and unlock your potential with our interactive online courses.</p>
+            <form action="submit_enrollment.php" method="POST">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required placeholder="Your full name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Your email address">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Your phone number">
+
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="ai_basics">AI Basics</option>
+                    <option value="web_dev">Web Development</option>
+                    <option value="data_science">Data Science</option>
+                    <option value="cyber_security">Cyber Security</option>
+                </select>
+
+                <label for="message">Additional Notes:</label>
+                <textarea id="message" name="message" placeholder="Any specific requirements or questions"></textarea>
+
+                <button type="submit">Enroll Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BrightPath Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
